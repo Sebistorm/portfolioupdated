@@ -1,5 +1,6 @@
 body {
-    background-color: #202429 !important
+    background-color: #202429 !important;
+    margin-top: 5vw !important;
 }
 
 .portfolio_venstre {
@@ -58,4 +59,37 @@ body {
 .portfolio_padding {
     padding-right: 2vw !important;
     padding-left: 2vw !important;
+}
+
+.cirkel {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: black;
+    line-height: 150px;
+    text-align: center;
+    background: #566a62
+}
+
+.cirkel_udd {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: black;
+    line-height: 150px;
+    text-align: center;
+    background: #566a62
+}
+
+.cirkel_erhverv {
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: black;
+    line-height: 150px;
+    text-align: center;
+    background: #566a62
 }
