@@ -1,6 +1,25 @@
 body {
     background-color: #202429 !important;
-    margin-top: 5vw !important;
+}
+
+.splashbillede {
+    padding: 0 !important;
+    background-image: url(img/skrivebord_billede3.png);
+    width: 100vw;
+    height: 52vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.typing_carousel {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+    top: 35%;
+    left: 18%
 }
 
 .portfolio_venstre {
