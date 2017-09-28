@@ -6,10 +6,54 @@ body {
     border: none !important;
     background-color: #23282d !important;
     color: white !important;
+    font-size: 1.5vw;
+    transition: font-size 1s;
 }
 
 .navbar-default a {
     color: white !important;
+}
+
+.navbar-brand {
+    font-size: 1.5vw !important;
+    transition: font-size 1s;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.logo_menubar {
+    transition: width 1s;
+}
+
+.navbar-brand.affix {
+    font-size: 1vw !important;
+}
+
+.navbar-default.affix {
+    font-size: 1vw;
+    /* Add additional styles here for the COLLAPSED state */
+}
+
+.logo_menubar.affix {
+    width: 30px !important;
+    z-index: 100;
+}
+
+.navbar-default .navbar-nav>li>.affix {
+    color: white;
+    margin-left: 2vw;
+}
+
+.linkedin {
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+    margin-right: 2vw;
+    transition: opacity 1s;
+}
+
+.linkedin:hover {
+    background-color: #ffffff;
+    opacity: 0.5;
 }
 
 .splashbillede {
@@ -30,7 +74,7 @@ body {
     font-size: 4vw;
     font-weight: bold;
     top: 35%;
-    left: 18%
+    left: 18%;
 }
 
 .mig {
