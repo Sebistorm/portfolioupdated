@@ -2,6 +2,16 @@ body {
     background-color: #202429 !important;
 }
 
+.navbar-default {
+    border: none !important;
+    background-color: #23282d !important;
+    color: white !important;
+}
+
+.navbar-default a {
+    color: white !important;
+}
+
 .splashbillede {
     padding: 0 !important;
     background-image: url(img/skrivebord_billede3.png);
