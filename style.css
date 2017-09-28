@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 2vw;
 }
 
 .typing_carousel {
@@ -20,6 +21,22 @@ body {
     font-weight: bold;
     top: 35%;
     left: 18%
+}
+
+.mig {
+    border-radius: 0.5vw;
+}
+
+.FrontEnd_Design_beskrivelse li {
+    font-size: 1vw;
+}
+
+.hojre_design_diagram {
+    float: right;
+}
+
+.runde_kanter {
+    border-radius: 0.5vw;
 }
 
 .portfolio_venstre {

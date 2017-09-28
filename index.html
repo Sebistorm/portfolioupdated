@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -26,10 +26,10 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Forside</a></li>
+                    <li class="active"><a href="#Forside">Forside</a></li>
                     <li><a href="#Portfolio">Portfolio</a></li>
                     <li><a href="#Om">Om</a></li>
-                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="#Kontakt">Kontakt</a></li>
                 </ul>
             </div>
         </div>
@@ -37,42 +37,93 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12 splashbillede">
-                <h1 class="typing_carousel">Velkommen, mit navn er Sebastian <br>
+            <section id="Forside">
+                <div class="col-md-12 splashbillede">
+                    <h1 class="typing_carousel">Velkommen, mit navn er Sebastian <br>
                     <span
                     class="txt-rotate"
                     data-period="500"
                     data-rotate='[ "Jeg designer hjemmesider.", "Jeg koder hjemmesider.", "Jeg bygger prototyper." ]'></span>
                 </h1>
-            </div>
-
-
-
-
+                </div>
+            </section>
         </div>
     </div>
 
+    <div class="container">
+        <section id="Om">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-center display-1" style="color:white;"> Om mig</h1>
+                    <h2 style="color:white">Jeg studerer som multimediedesigner på København Erhvervsakademi</h2>
+                    <p style="color:white;">Når jeg ikke studere som multimediedesigner er jeg sammen med vennerne eller familien. Sport interesser mig meget, især fodbold og basketball. Sporten har gjort mig målbevidst og udholdende, som jeg har overført til mine studier.
+                        <br>
+                        <br> Før jeg startede på MMD var jeg 3 måneder i Miami, USA hvor jeg var praktikant hos Best Doctors. Jeg arbejdede sammen med deres multimediedesigner hvor jeg fik lov til at komme med feedback og forbedringer til deres apps. Det en grænseoverskridende oplevelese at være væk fra de trygge ramme men jeg lærte en hel masse, ren teknisk, menneskeligt og hvordan kulturen er i USA, især hvilken kultur latinamerikanerne har
+                        <br>
+                        <br> I Marts 2017 fik jeg muligheden for at lave en lille webshop for CollectorsHome. Jeg brugte CMS programmet Wordpress. At få muligheden for at lave en webshop har lært mig en masse om wordpress og hvordan det fungerer. Derudover har det givet mig en viden om SEO og hvilke handelsbetingelser en webshop skal overholde, som jeg ikke ville få på min uddannelse. I dag er jeg webansvarlig og har til ansvar til driften af hjemmeside.
+                        <br>
+                        <br>
+                        <blockquote class="blockquote">
+                            <p class="mb-0" style="color:white"> <em>“At vove, er at miste fodfæstet et øjeblik - ikke at vove er at miste sig selv” - Søren Kierkegaard</em></p>
+                            <footer class="blockquote-footer" style="color:white"> <cite title="Source Title">Søren Kierkegaard</cite></footer>
+                        </blockquote>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/mig.jpg" alt="mig" class="img-responsive mig">
+                </div>
+            </div>
 
-    <h1 class="text-center display-1" style="color:white; margin-bottom:2vw"> Portfolio</h1>
+            <div class="row" style="margin-top:5vw;">
+                <div class="col-md-4">
+                    <h2 style="color:white;">Front end Udvikler</h2>
+                    <ul class="FrontEnd_Design_beskrivelse" style="color:white">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>Javascript</li>
+                        <li>Bootstrap</li>
+                        <li>Vredesudbrud mod computer </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/diagram2.png" alt="Diagram over front end og Designer" class="img-responsive">
+                </div>
+                <div class="col-md-4">
+                    <div class="hojre_design_diagram">
+                        <h2 style="color:white;">Designer</h2>
+                        <ul class="FrontEnd_Design_beskrivelse" style="color:white">
+                            <li>Webside design</li>
+                            <li>Prototyping</li>
+                            <li>User Experience Design</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+    <h1 class="text-center display-1" style="color:white; margin-bottom:2vw; margin-top:5vw;"> Portfolio</h1>
     <div class="container-fluid">
         <div class="row">
             <section id="Portfolio">
                 <!-- Række 1 -->
                 <div>
                     <div class="col-md-3 portfolio_padding">
-                        <img src="img/teeeeeeest.PNG" alt="test" class="img-responsive portfolio_venstre">
+                        <img src="img/teeeeeeest.PNG" alt="test" class="img-responsive portfolio_venstre runde_kanter">
                         <h4 class="text-center titel_portfolio"> Titel</h4>
                     </div>
                     <div class="col-md-3 portfolio_padding">
-                        <img src="img/teeeeeeest.PNG" alt="test2" class="img-responsive portfolio_venstremidt">
+                        <img src="img/teeeeeeest.PNG" alt="test2" class="img-responsive portfolio_venstremidt runde_kanter">
                         <h4 class="text-center titel_portfolio"> Titel</h4>
                     </div>
                     <div class="col-md-3 portfolio_padding">
-                        <img src="img/teeeeeeest.PNG" alt="test3" class="img-responsive portfolio_hojremidt">
+                        <img src="img/teeeeeeest.PNG" alt="test3" class="img-responsive portfolio_hojremidt runde_kanter">
                         <h4 class="text-center titel_portfolio"> Titel</h4>
                     </div>
                     <div class="col-md-3 portfolio_padding">
-                        <img src="img/teeeeeeest.PNG" alt="test4" class="img-responsive portfolio_hojre">
+                        <img src="img/teeeeeeest.PNG" alt="test4" class="img-responsive portfolio_hojre runde_kanter">
                         <h4 class="text-center titel_portfolio"> Titel</h4>
                     </div>
                 </div>
@@ -80,19 +131,19 @@
                 <!-- Række 2 -->
                 <div>
                     <div class="col-md-3 portfolio_padding">
-                        <img src="img/teeeeeeest.PNG" alt="test" class="img-responsive portfolio_venstre">
+                        <img src="img/teeeeeeest.PNG" alt="test" class="img-responsive portfolio_venstre runde_kanter">
                         <h4 class="text-center titel_portfolio"> Titel</h4>
                     </div>
                     <div class="col-md-3 portfolio_padding">
-                        <img src="img/teeeeeeest.PNG" alt="test2" class="img-responsive portfolio_venstremidt">
+                        <img src="img/teeeeeeest.PNG" alt="test2" class="img-responsive portfolio_venstremidt runde_kanter">
                         <h4 class="text-center titel_portfolio"> Titel</h4>
                     </div>
                     <div class="col-md-3 portfolio_padding">
-                        <img src="img/teeeeeeest.PNG" alt="test3" class="img-responsive portfolio_hojremidt">
+                        <img src="img/teeeeeeest.PNG" alt="test3" class="img-responsive portfolio_hojremidt runde_kanter">
                         <h4 class="text-center titel_portfolio"> Titel</h4>
                     </div>
                     <div class="col-md-3 portfolio_padding">
-                        <img src="img/teeeeeeest.PNG" alt="test4" class="img-responsive portfolio_hojre">
+                        <img src="img/teeeeeeest.PNG" alt="test4" class="img-responsive portfolio_hojre runde_kanter">
                         <h4 class="text-center titel_portfolio"> Titel</h4>
                     </div>
                 </div>
@@ -100,19 +151,19 @@
                 <!-- Række 3 -->
                 <div>
                     <div class="col-md-3 portfolio_padding">
-                        <img src="img/teeeeeeest.PNG" alt="test" class="img-responsive portfolio_venstre">
+                        <img src="img/teeeeeeest.PNG" alt="test" class="img-responsive portfolio_venstre runde_kanter">
                         <h4 class="text-center titel_portfolio"> Titel</h4>
                     </div>
                     <div class="col-md-3 portfolio_padding">
-                        <img src="img/teeeeeeest.PNG" alt="test2" class="img-responsive portfolio_venstremidt">
+                        <img src="img/teeeeeeest.PNG" alt="test2" class="img-responsive portfolio_venstremidt runde_kanter">
                         <h4 class="text-center titel_portfolio"> Titel</h4>
                     </div>
                     <div class="col-md-3 portfolio_padding">
-                        <img src="img/teeeeeeest.PNG" alt="test3" class="img-responsive portfolio_hojremidt">
+                        <img src="img/teeeeeeest.PNG" alt="test3" class="img-responsive portfolio_hojremidt runde_kanter">
                         <h4 class="text-center titel_portfolio"> Titel</h4>
                     </div>
                     <div class="col-md-3 portfolio_padding">
-                        <img src="img/teeeeeeest.PNG" alt="test4" class="img-responsive portfolio_hojre">
+                        <img src="img/teeeeeeest.PNG" alt="test4" class="img-responsive portfolio_hojre runde_kanter">
                         <h4 class="text-center titel_portfolio"> Titel</h4>
                     </div>
                 </div>
@@ -122,8 +173,8 @@
 
     <div class="container">
         <div class="row">
-            <section id="Om">
-                <h1 class="text-center display-1" style="color:white; margin-bottom:2vw">Om</h1>
+            <section id="Kontakt">
+                <h1 class="text-center display-1" style="color:white; margin-bottom:2vw">Kontakt</h1>
                 <div class="wrapper_om col-md-10 col-md-push-1">
                     <div class="box_om col-md-12" style="height:110%; background-color:white; margin-bottom:2vw; padding-bottom:2vw;">
 
