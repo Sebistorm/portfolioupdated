@@ -7,7 +7,7 @@ body {
     background-color: transparent !important;
     color: white !important;
     font-size: 1.5vw;
-    transition: font-size 1s;
+    transition: all 1s;
 }
 
 .navbar-default a {
@@ -74,7 +74,6 @@ body {
 }
 
 .typing_carousel {
-    z-index: 100;
     position: absolute;
     color: white;
     font-size: 4vw;
@@ -164,6 +163,18 @@ body {
 .btn-light:hover {
     background-color: #ffffff;
     opacity: 0.5;
+}
+
+.lukke_knap {
+    margin-top: 1vw;
+}
+
+#animatedModal {
+    background-color: #202429 !important;
+}
+
+.modal-content {
+    background-color: #202429 !important;
 }
 
 .cirkel {

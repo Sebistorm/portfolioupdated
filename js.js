@@ -3,20 +3,22 @@ $('#mainNav').affix({
     offset: {
         top: 100
     }
-})
+});
 
 $('.logo_menubar').affix({
     offset: {
         top: 100
     }
-})
+});
 
 $('.navbar-default .navbar-nav>li>a').affix({
     offset: {
         top: 100
     }
-})
+});
 
+
+$("#kyoto").animatedModal();
 
 
 $(function () {
@@ -101,6 +103,11 @@ window.onload = function () {
 };
 
 
+
+
+
+
+
 // scrollReveal
 window.sr = ScrollReveal();
 sr.reveal('.navbar', {
@@ -142,13 +149,7 @@ sr.reveal('.raekke_2', {
     delay: 1500
 });
 
-sr.reveal('.raekke_3', {
-    duration: 2000,
-    origin: 'left',
-    distance: '300px',
-    viewFactor: 0.99,
-    delay: 3000
-});
+
 
 sr.reveal('#Kontakt div', {
     duration: 2000,
