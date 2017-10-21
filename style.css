@@ -209,3 +209,11 @@ body {
     text-align: center;
     background: #566a62
 }
+
+@media screen and (max-width: 414px) {
+    /* Københavnerture - forside start */
+    .mobiltLosning_margin {
+        margin-bottom: 4vw;
+    }
+    /* Københavnerture - forside slut */
+}
