@@ -1,17 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800i|Poppins:300,500,500i,600,700');
 body {
     background-color: #202429 !important;
+}
+
+p {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    line-height: 2rem;
+    font-size: 1.7rem;
+}
+
+li {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+a {
+    color: #ffb836 !important;
+}
+
+h1 {
+    font-size: 3.998em !important;
+}
+
+h3 {
+    font-size: 1.999em !important;
+}
+
+h4 {
+    font-size: 1.414em !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8 {
+    font-family: 'Montserrat', 'sans-serif' !important;
+    font-weight: 400;
 }
 
 .navbar-default {
     border: none !important;
     background-color: transparent !important;
     color: white !important;
-    font-size: 1.5vw;
+    font-size: 2em;
     transition: all 1s;
 }
 
 .navbar-default a {
     color: white !important;
+    font-family: 'Montserrat', 'sans-serif' !important;
+    font-weight: 400;
 }
 
 .navbar-default a:hover {
@@ -35,7 +80,7 @@ body {
 }
 
 .navbar-default.affix {
-    font-size: 1vw;
+    font-size: 1.7em;
     background-color: #23282d !important;
     /* Add additional styles here for the COLLAPSED state */
 }
@@ -45,9 +90,13 @@ body {
     z-index: 100;
 }
 
-.navbar-default .navbar-nav>li>.affix {
+.navbar-default .navbar-nav > li > .affix {
     color: white;
     margin-left: 2vw;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white !important;
 }
 
 .linkedin {
@@ -65,7 +114,7 @@ body {
 .splashbillede {
     padding: 0 !important;
     background-image: url(img/skrivebord_billede3.jpg);
-    width: 100vw;
+    width: 98vw;
     height: 52vw;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,14 +125,22 @@ body {
 .typing_carousel {
     position: absolute;
     color: white;
-    font-size: 4vw;
+    font-size: 5em !important;
     font-weight: bold;
-    top: 35%;
-    left: 18%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding-left: 11%;
 }
 
 .mig {
     border-radius: 0.5vw;
+}
+
+.skrivebord2 {
+    display: none !important;
 }
 
 .FrontEnd_Design_beskrivelse li {
@@ -99,56 +156,33 @@ body {
 }
 
 .portfolio_venstre {
-    -webkit-box-shadow: 0px 44px 42px -32px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 44px 42px -32px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 44px 42px -32px rgba(0, 0, 0, 0.75);
     transition: opacity 1s;
 }
 
 .portfolio_venstre:hover {
-    background-color: #ffffff;
-    opacity: 0.5;
+    cursor: pointer;
 }
 
-.portfolio_venstremidt {
-    -webkit-box-shadow: 0px 44px 42px -32px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 44px 42px -32px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 44px 42px -32px rgba(0, 0, 0, 0.75);
+.portfolio_midt {
     transition: opacity 1s;
 }
 
-.portfolio_venstremidt:hover {
-    background-color: #ffffff;
-    opacity: 0.5;
-}
-
-.portfolio_hojremidt {
-    -webkit-box-shadow: 0px 44px 42px -32px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 44px 42px -32px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 44px 42px -32px rgba(0, 0, 0, 0.75);
-    transition: opacity 1s;
-}
-
-.portfolio_hojremidt:hover {
-    background-color: #ffffff;
-    opacity: 0.5;
+.portfolio_midt:hover {
+    cursor: pointer;
 }
 
 .portfolio_hojre {
-    -webkit-box-shadow: 0px 44px 42px -32px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 44px 42px -32px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 44px 42px -32px rgba(0, 0, 0, 0.75);
-    transition: opacity 1s;
+    transition: background-color 1s;
 }
 
 .portfolio_hojre:hover {
-    background-color: #ffffff;
-    opacity: 0.5;
+    cursor: pointer;
 }
 
 .titel_portfolio {
     color: white;
     margin-top: 1.5vw;
+    font-size: 2.599em !important;
 }
 
 .portfolio_padding {
@@ -169,51 +203,315 @@ body {
     margin-top: 1vw;
 }
 
-#animatedModal {
-    background-color: #202429 !important;
+.MMD_arbejde li {
+    font-size: 1.7rem;
 }
 
-.modal-content {
-    background-color: #202429 !important;
+.skills_sprog li {
+    font-size: 1.7rem;
 }
 
 .cirkel {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 1.7em;
     color: black;
     line-height: 150px;
     text-align: center;
-    background: #566a62
+    background: #566a62;
+    font-family: 'Montserrat', 'sans-serif' !important;
+    font-weight: 400;
 }
 
 .cirkel_udd {
     width: 200px;
     height: 150px;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 1.7em;
     color: black;
     line-height: 150px;
     text-align: center;
-    background: #566a62
+    background: #566a62;
+    font-family: 'Montserrat', 'sans-serif' !important;
+    font-weight: 400;
 }
 
 .cirkel_erhverv {
     width: 250px;
     height: 150px;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 1.7em;
     color: black;
     line-height: 150px;
     text-align: center;
-    background: #566a62
+    background: #566a62;
+    font-family: 'Montserrat', 'sans-serif' !important;
+    font-weight: 400;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1536px) {
+    .typing_carousel {
+        font-size: 4.5em !important;
+        padding-left: 10%;
+
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .typing_carousel {
+        font-size: 3.5em !important;
+        padding-left: 13%;
+
+
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .skrivebord2 {
+        margin-top: 5% !important;
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
     /* Københavnerture - forside start */
+    h3 {
+        font-size: 2.2em !important;
+    }
+    .titel_portfolio {
+        color: white;
+        margin-top: 1.5vw;
+        font-size: 1.7em !important;
+    }
+    .FrontEnd_Design_beskrivelse li {
+        font-size: 1.5em !important;
+        line-height: 3rem;
+    }
+    .hojre_design_diagram {
+        float: left;
+    }
+    .omMig_h2 {
+        font-size: 1.5em !important;
+    }
+    .typing_carousel {
+        font-size: 3.2em !important;
+        padding-left: 8%;
+
+    }
+
+    .cirkel {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        font-size: 1.2em;
+        color: black;
+        line-height: 150px;
+        text-align: center;
+        background: #566a62;
+        font-family: 'Montserrat', 'sans-serif' !important;
+        font-weight: 400;
+    }
+    .cirkel_udd {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        font-size: 1.2em;
+        color: black;
+        line-height: 150px;
+        text-align: center;
+        background: #566a62;
+        font-family: 'Montserrat', 'sans-serif' !important;
+        font-weight: 400;
+    }
+    .cirkel_erhverv {
+        width: 170px;
+        height: 150px;
+        border-radius: 50%;
+        font-size: 1.2em;
+        color: black;
+        line-height: 150px;
+        text-align: center;
+        background: #566a62;
+        font-family: 'Montserrat', 'sans-serif' !important;
+        font-weight: 400;
+    }
+    /* Københavnerture - forside slut */
+    .box_om {
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Københavnerture - forside start */
+    h3 {
+        font-size: 1.5em !important;
+    }
+    p {
+        font-size: 1.3rem;
+    }
+
+    .navbar-default {
+        border: none !important;
+        background-color: transparent !important;
+        color: white !important;
+        font-size: 2em;
+        transition: all 1s;
+        background-color: #23282d !important;
+    }
+
+    .linkedin {
+        display: none !important;
+    }
+
+    .FrontEnd_Design_beskrivelse li {
+        font-size: 1.5em !important;
+        line-height: 3rem;
+    }
+    .hojre_design_diagram {
+        float: left;
+    }
+
+    .splashbillede {
+        width: 97.5vw;
+    }
+
+    .skrivebord2 {
+        display: none !important;
+    }
+
+    .omMig_h2 {
+        font-size: 1.5em !important;
+    }
+    .typing_carousel {
+        font-size: 2.5em !important;
+        padding-left: 6%;
+    }
+
+    .MMD_arbejde li {
+        font-size: 1.3rem;
+    }
+    .skills_sprog li {
+        font-size: 1.3rem;
+    }
+    .cirkel {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        font-size: 1.2em;
+        color: black;
+        line-height: 150px;
+        text-align: center;
+        background: #566a62;
+        font-family: 'Montserrat', 'sans-serif' !important;
+        font-weight: 400;
+    }
+    .cirkel_udd {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        font-size: 1.2em;
+        color: black;
+        line-height: 150px;
+        text-align: center;
+        background: #566a62;
+        font-family: 'Montserrat', 'sans-serif' !important;
+        font-weight: 400;
+    }
+    .cirkel_erhverv {
+        width: 170px;
+        height: 150px;
+        border-radius: 50%;
+        font-size: 1.2em;
+        color: black;
+        line-height: 150px;
+        text-align: center;
+        background: #566a62;
+        font-family: 'Montserrat', 'sans-serif' !important;
+        font-weight: 400;
+    }
+    /* Københavnerture - forside slut */
+}
+
+@media screen and (max-width: 655px) {
+    .splashbillede {
+        width: 96.5vw;
+    }
+
+    .typing_carousel {
+        font-size: 2.5em !important;
+        padding-left: 8%;
+    }
+}
+
+
+@media screen and (max-width: 415px) {
+    /* Københavnerture - forside start */
+    .splashbillede {
+        width: 96vw;
+    }
+    p {
+        font-size: 1.7rem;
+    }
+    .titel_portfolio {
+        color: white;
+        margin-top: 1.5vw;
+        font-size: 1.3em !important;
+    }
+    .MMD_arbejde li {
+        font-size: 1.7rem;
+    }
+    .skills_sprog li {
+        font-size: 1.7rem;
+    }
     .mobiltLosning_margin {
         margin-bottom: 4vw;
+    }
+    .typing_carousel {
+        font-size: 1.3em !important;
+
+    }
+    .omMig_h2 {
+        font-size: 1.7em !important;
+    }
+
+    .skrivebord2 {
+        display: none !important;
+    }
+
+    .FrontEnd_Design_beskrivelse li {
+        font-size: 1.5em !important;
+        line-height: 3rem;
+    }
+    .hojre_design_diagram {
+        float: left;
+    }
+
+    .cirkel {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        font-size: 1.7em;
+        color: black;
+        line-height: 150px;
+        text-align: center;
+    }
+    .cirkel_udd {
+        width: 200px;
+        height: 150px;
+        border-radius: 50%;
+        font-size: 1.7em;
+        color: black;
+        line-height: 150px;
+    }
+    .cirkel_erhverv {
+        width: 250px;
+        height: 150px;
+        border-radius: 50%;
+        font-size: 1.7em;
+        color: black;
+        line-height: 150px;
     }
     /* Københavnerture - forside slut */
 }

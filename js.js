@@ -116,9 +116,16 @@ sr.reveal('.navbar', {
 });
 sr.reveal('.mig', {
     duration: 2000,
-    origin: 'bottom',
+    origin: 'top',
     distance: '300px',
     viewFactor: 0.30
+});
+
+sr.reveal('.skrivebord2', {
+    duration: 2000,
+    origin: 'bottom',
+    distance: '300px',
+    viewFactor: 0.9
 });
 
 sr.reveal('.hojre_om', {
