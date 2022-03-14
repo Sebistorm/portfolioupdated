@@ -6,234 +6,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Min Portfolio!</title>
     <link href="https://fonts.googleapis.com/css?family=Amiko" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-
 
 </head>
 
 <body>
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#Forside"> <img src="img/Asset%202.png" alt="Logo" style="width:40px;" class="logo_menubar"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="#Forside">Forside</a></li>
-                    <li><a href="#Om">Om</a></li>
-                    <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href="#Kontakt">Kontakt</a></li>
-                </ul>
-
-                <div class="nav navbar-nav navbar-right" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a target="_blank" href="https://www.linkedin.com/in/sebastian-storm-9344b7136/" class="linkedin"> <img src="img/linkedin.png" alt="Linkedin" style="width:40px;"></a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
+            <a class="navbar-brand" href="#Forside"> <img src="img/Asset%202.png" alt="Logo" style="width:40px;" class="logo_menubar"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="#Om">Om</a></li>
+              <li class="nav-item"><a class="nav-link" href="#Portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
 
-    <div class="container-fluid">
-        <div class="row">
-            <section id="Forside">
-                <div class="col-md-12 splashbillede">
+
+    <div class="w-100">
+        <section id="Forside" class="row Forside splashbillede">
+                <div class="col-12 ">
                     <h1 class="typing_carousel">Velkommen, mit navn er Sebastian <br>
-                        <span class="txt-rotate" data-period="500" data-rotate='[ "Jeg designer hjemmesider.", "Jeg kan kode front end.", "Jeg kan kode backend." ]'></span>
+                        <span class="txt-rotate" data-period="500" data-rotate='["Jeg kan kode frontend.", "Jeg kan kode backend.", "Jeg kan arbejde med Databaser" ]'></span>
                     </h1>
                 </div>
-            </section>
-        </div>
-    </div>
-
-    <div class="container">
-        <section id="Om">
-            <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-12 hojre_om">
-                    <h1 class="text-center display-1" style="color:white;"> Om mig</h1>
-                    <h2 style="color:white" class="omMig_h2">Jeg studerer som Webudvikler på København Erhvervsakademi</h2>
-                    <p style="color:white;">Når jeg ikke studere som Webudvikler er jeg sammen med vennerne eller familien. Sport interesser mig meget, især fodbold og basketball. Sporten har gjort mig målbevidst og udholdende, som jeg har overført til mine studier.
-                        <br>
-                        <br>Jeg har en uddannelse som multimediedesigner på Københavns Erhvervsakademi, hvor jeg specialiserede mig i front end kodning. I min tid som multimediedesigner var jeg også i praktik hos BetterHome hvor jeg fik til opgave at opretholde og updater deres hjemmeside og applikationer
-                        <br>
-                        <br> Før jeg startede på MMD var jeg 3 måneder i Miami, USA hvor jeg var praktikant hos Best Doctors. Jeg arbejdede sammen med deres multimediedesigner hvor jeg fik lov til at komme med feedback og forbedringer til deres apps. Det en grænseoverskridende oplevelese at være væk fra de trygge ramme men jeg lærte en hel masse, ren teknisk, menneskeligt og hvordan kulturen er i USA, især hvilken kultur latinamerikanerne har
-                        <br>
-                        <br> I Marts 2017 fik jeg muligheden for at lave en lille webshop for <a target="_blank" href="https://www.collectorshome.dk/">CollectorsHome</a>. Jeg brugte CMS programmet Wordpress. At få muligheden for at lave en webshop har lært mig en masse om wordpress og hvordan det fungerer. Derudover har det givet mig en viden om SEO og hvilke handelsbetingelser en webshop skal overholde, som jeg ikke ville få på min uddannelse. I dag er jeg webansvarlig og har til ansvar til driften af hjemmesiden.
-                    </p>
-                    <blockquote class="blockquote">
-                        <p class="mb-0" style="color:white"> <em>“At vove, er at miste fodfæstet et øjeblik - ikke at vove er at miste sig selv” - Søren Kierkegaard</em></p>
-                        <footer class="blockquote-footer" style="color:white"> <cite title="Source Title">Søren Kierkegaard</cite></footer>
-                    </blockquote>
-
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <img src="img/mig.jpg" alt="mig" class="img-responsive mig">
-                    <img src="img/skrivebord2.jpg" alt="Mit skrivebord" class="img-responsive center-block skrivebord2">
-                </div>
-            </div>
-
-            <!-- <div class="row" style="margin-top:5vw;">
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <h2 style="color:white;">Front end Udvikler</h2>
-                    <ul class="FrontEnd_Design_beskrivelse" style="color:white">
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>Javascript</li>
-                        <li>Bootstrap</li>
-                        <li>Vredesudbrud mod computer </li>
-                    </ul>
-                </div>
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <img src="img/diagram2.png" alt="Diagram over front end og Designer" class="img-responsive diagram_overblik">
-                </div>
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <div class="hojre_design_diagram">
-                        <h2 style="color:white;">Designer</h2>
-                        <ul class="FrontEnd_Design_beskrivelse" style="color:white">
-                            <li>Webside design</li>
-                            <li>Prototyping</li>
-                            <li>User Experience Design</li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div> -->
         </section>
     </div>
 
-    <h1 class="text-center display-1" style="color:white; margin-bottom:2vw; margin-top:5vw;"> Portfolio - Multimediedesigner</h1>
-    <div class="container">
+    <section id="Om">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-xs-12 hojre_om">
+                    <h2 class="text-center display-1"> Om mig</h2>
+                    <h3 class="omMig_h2">Jeg studerer som Datamatiker på København Erhvervsakademi</h3>
+                    <p class="mt-2">Når jeg ikke studerer til Datamatiker er jeg sammen med vennerne eller familien. Sport interesser mig meget, især fodbold og basketball. Sporten har gjort mig målbevidst og udholdende, som jeg har overført til mine studier.</p>
+                    <p>Jeg har en uddannelse som Multimediedesigner og Webudvikler på Københavns Erhvervsakademi, hvor jeg specialiserede mig i frontend kodning. I min tid som Multimediedesigner og Webudvikler har jeg været i praktik hos BetterHome & GoTutor, hvor jeg fik til opgave at opretholde og updater deres hjemmeside og applikationer</p>
+                    <p>I Marts 2017 fik jeg muligheden for at lave en lille webshop for <a target="_blank" href="https://www.collectorshome.dk/">CollectorsHome</a>. 
+                    Jeg brugte CMS programmet Wordpress. At få muligheden for at lave en webshop har lært mig en masse om wordpress og hvordan det fungerer. 
+                    Derudover har det givet mig en viden om SEO og hvilke handelsbetingelser en webshop skal overholde, som jeg ikke ville få på min uddannelse. 
+                    I dag er jeg webansvarlig og har til ansvar til driften af hjemmesiden.</p>
+                    <p>Jeg valgte at tage Datamatiker Uddannelsen, da jeg gerne ville udvikle mere Backend. Det har givet mig et bredere skill set og en større forståelse for webudvikling.</p>
+                </div>
+                <div class="col-6 col-sm-6 col-xs-12">
+                    <img src="img/mig.jpg" alt="mig" class="col-12">
+                    <img src="img/skrivebord2.jpg" alt="Mit skrivebord" class="col-12 skrivebord2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="container" id="Portfolio">
+        <h2 class="text-center display-1 mt-5"> Projekter - Multimediedesigner</h2>
         <div class="row">
-            <section id="Portfolio">
+            <div class="d-flex flex-wrap justify-content-between">
                 <!-- Række 1 -->
-                <div class="raekke_1">
-                    <a href="kyoto.html">
-                        <div class="col-md-4 col-sm-4 col-xs-6 portfolio_padding" style="margin-bottom:2vw">
-                            <img src="img/thumbnails_portfolio_kyoto.png" alt="kyoto thumbnail" class="img-responsive portfolio_venstre runde_kanter">
+                <div class="project w-30 mt-4">
+                    <a href="kyoto.html" class="w-100">
+                        <div class="col-12" style="margin-bottom:2vw">
+                            <img src="img/thumbnails_portfolio_kyoto.png" alt="kyoto thumbnail" class="col-12 rounded">
                             <h3 class="text-center titel_portfolio"> Kyoto</h3>
                         </div>
                     </a>
-
-                    <a href="sexsamfund.html">
-                        <div class="col-md-4 col-sm-4 col-xs-6 portfolio_padding" style="margin-bottom:2vw">
-                            <img src="img/thumbnails_portfolio_sexSamfund.png" alt="sex & samfund thumbnail" class="img-responsive portfolio_midt runde_kanter">
-                            <h3 class="text-center titel_portfolio"> Sex & Samfund</h3>
-                        </div>
-                    </a>
-
-                    <a href="fermLiving.html">
-                        <div class="col-md-4 col-sm-4 col-xs-6 portfolio_padding" style="margin-bottom:2vw">
-                            <img src="img/thumbnails_portfolio_fermLiving.png" alt="Ferm Living thumbnail" class="img-responsive portfolio_hojre runde_kanter">
-                            <h3 class="text-center titel_portfolio"> Ferm Living</h3>
-                        </div>
-                    </a>
-
                 </div>
-
-                <!-- Række 2 -->
-                <div class="raekke_2">
-
-                    <a href="verdenshjornet.html">
-                        <div class="col-md-4 col-sm-4 col-xs-6 portfolio_padding" style="margin-bottom:2vw">
-                            <img src="img/thumbnails_portfolio_verdenshjornet.png" alt="Verdenshjørnet" class="img-responsive portfolio_venstre runde_kanter">
-                            <h3 class="text-center titel_portfolio"> Verdenshjørnet</h3>
-                        </div>
-                    </a>
-
-                    <a href="kobenhavnerture.html">
-                        <div class="col-md-4 col-sm-4 col-xs-6 portfolio_padding" style="margin-bottom:2vw">
-                            <img src="img/thumbnails_portfolio_kobenhavnerture.png" alt="Københavnerture thumbnail" class="img-responsive portfolio_midt runde_kanter">
-                            <h3 class="text-center titel_portfolio"> Københavnerture</h3>
-                        </div>
-                    </a>
-
-                    <a href="mitfuckingvalg.html">
-                        <div class="col-md-4 col-sm-4 col-xs-6 portfolio_padding" style="margin-bottom:2vw">
-                            <img src="img/thumbnails_portfolio_Fvalg.png" alt="Mit fucking valg thumbnail" class="img-responsive portfolio_hojre runde_kanter">
-                            <h3 class="text-center titel_portfolio"> #MitFuckingValg</h3>
-                        </div>
-                    </a>
-                </div>
-
-
-            </section>
+            </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container">
-        <div class="row" style="margin-top:2vw;">
-            <section id="Kontakt">
-                <h1 class="text-center display-1" style="color:white; margin-bottom:2vw">Kontakt</h1>
-                <div class="wrapper_om col-md-10 col-md-push-1 col-sm-10 col-sm-push-1">
-                    <div class="box_om col-md-12 col-sm-12" style="height:110%; background-color:white; margin-bottom:2vw; padding-bottom:2vw;">
+    <section id="kontakt" class="container mt-5">
+        <div class="row bg-white">
+            <div class="wrapper_om col-12">
+                <div class="col-12">
 
-                        <div class="box_om col-md-12 col-sm-12" style="height:40px; background-color:#566b62; margin-top:2vw;"> </div>
+                    <div class="boxRectangel mt-3 mb-3 col-md-12 col-sm-12"></div>
 
-                        <div class="kontaktinformation">
-                            <h2 class="text-center" style="color:black; margin-top:6vw;"> <strong>Kontakt </strong> </h2>
-                            <h3 class="text-center" style="color:black"> <strong> Email: seb994@live.dk </strong></h3>
-                            <h3 class="text-center" style="color:black; margin-bottom:1vw;"> <strong> Telefon: +45 25 76 91 94 </strong></h3>
-                        </div>
+                    <div class="kontaktinformation">
+                        <h2 class="text-center mt-3"> <strong>Kontakt </strong> </h2>
+                        <h4 class="text-center mt-2"> <strong> Email: seb994@live.dk </strong></h4>
+                        <h4 class="text-center mt-2"> <strong> Telefon: +45 25 76 91 94 </strong></h4>
+                    </div>
 
-                        <div class="box_om col-md-12 col-sm-12" style="height:40px; background-color:#566b62"> </div>
+                    <div class="boxRectangel mt-3 mb-3 col-md-12 col-sm-12"> </div>
 
-                        <div class="Generelle_oplysninger" style="margin-top:5vw;">
-                            <h3 class="text-center" style="color:black"> <strong> <em>Sebastian Storm </em> </strong></h3>
-                            <h3 class="text-center" style="color:black; margin-top:0vw"> <strong> <em>Kea - Multimediedesigner</em> </strong></h3>
-                            <h3 class="text-center" style="color:black; margin-top:0vw"> <strong> <em>Bopæl: Kokkedal </em> </strong></h3>
-                            <h3 class="text-center" style="color:black; margin-top:0vw"> <strong> <em>Alder: 24 år </em> </strong></h3>
-                        </div>
+                    <div class="Generelle_oplysninger">
+                        <h4 class="text-center"> <strong> <em>Sebastian Storm </em> </strong></h4>
+                        <h4 class="text-center"> <strong> <em>Kea - Multimediedesigner</em> </strong></h4>
+                        <h4 class="text-center"> <strong> <em>Bopæl: Kokkedal </em> </strong></h4>
+                        <h4 class="text-center"> <strong> <em>Alder: 24 år </em> </strong></h4>
+                    </div>
 
-                        <div class="box_om col-md-12 col-sm-12" style="height:40px; background-color:#566b62"> </div>
-                        <h2 class="text-center" style="color:black; margin-top:3.5vw;"> <strong>CV</strong> </h2>
-                        <div class="unik">
-                            <h3 class="text-center">Hvad er det som gør mig unik?</h3>
-                            <p class="col-md-8 col-md-offset-4 col-md-pull-2 col-sm-8 col-sm-offset-4 col-sm-pull-2" style="margin-bottom:2vw;">Fra da jeg var helt lille har jeg været målbevidst (som nok kommer fra fodbolden), og ingen skulle fortælle mig hvad jeg ikke kunne. Jeg er god i både gruppearbejde og når der skal laves selvstændigt arbejde. Så det som gør mig unik er at jeg er en fighter som er målbevidst, stædig og udholdende og er derudover lærenem indenfor multimedie-verdenen.</p>
-                        </div>
-
-                        <div class="profil col-md-4 col-sm-4">
-                            <div class="cirkel center-block" style="margin-bottom:2vw;">Profil </div>
-                            <h4 class="text-center" style="color:black;"><strong> Kompetencer </strong></h4>
-                            <p>Allerede I folkeskolen begyndte jeg at interessere mig for IT og Design hvor jeg eksperimenteret med design af forskellige ting og hvordan man kunne kode ved hjælp af html. På htx specialiserede jeg mig i kommunikation/IT & Design. Allerede der lærte jeg programmer såsom photoshop, dreamweaver osv. Derudover lærte jeg forskellige designteorier. Jeg ser mig selv som lidt af en “nørd” , da jeg er nysgerrig efter hele tiden at lære mere omkring html, css, javascript. Desuden synes jeg det er spændende at idegenerere på forskellige problemer & emner. En af mine store forcer er at jeg ikke giver så let op. f.eks. hvis jeg har et kodning problem, så vil jeg løse det før jeg gør noget andet. Jeg har været vant til at arbejde i grupper siden gymnasiet, så jeg er vant til at arbejde i teams. Dog er jeg også god til at arbejde selvstændigt. </p>
-
-                            <h4 class="text-center" style="color:black"><strong>Sprog</strong></h4>
+                    <div class="boxRectangel mt-3 mb-3 col-md-12 col-sm-12"> </div>
+                    <h2 class="text-center"> <strong>CV</strong> </h2>
+                    <div class="d-flex justify-content-between mt-4">
+                        <div class="profil w-30">
+                            <div class="cirkel center-block">
+                                <h5>Profil</h5> 
+                            </div>
+                            <h4 class="text-center"><strong> Kompetencer </strong></h4>
+                            <p>Jeg ser mig selv som lidt af en “nørd” , da jeg er nysgerrig efter hele tiden at udvikle mine kompetencer i webudvikling. 
+                            En af mine store forcer er at jeg ikke giver så let op. f.eks. hvis jeg har et kodning problem, så vil jeg løse det før jeg gør noget andet. 
+                            Jeg er vant til at arbejde i teams, da jeg har gjort det siden gymnasiet. Dog er jeg også god til at arbejde selvstændigt. </p>
+                            <p>Som multimediedesigner- og Webudvikleruddannelsen har jeg specialiseret indenfor frontendudvikling med sprog som html, css, javascript osv.</p>
+                            <p>På Datamatiker Uddannelse har jeg arbejdet mere med backend og det tekniske aspekt i webudvikling. Her har jeg blandt andet arbejdet med Java og Spring</p>  
+                            <h4 class="text-center"><strong>Sprog</strong></h4>
                             <ul class="skills_sprog">
-                                <li>Dansk</li>
-                                <li>Engelsk</li>
                                 <li>Html, Css & javascript</li>
                                 <li>PHP, SQL, SASS</li>
+                                <li>Java</li>
                             </ul>
                         </div>
 
-                        <div class="uddannelse col-md-4 col-sm-4">
-                            <div class="cirkel_udd center-block" style="margin-bottom:2vw;">Uddannelse </div>
-                            <h4 style="margin-bottom:0px;"><strong> Htx - komm/it & design </strong></h4>
+                        <div class="uddannelse w-30">
+                            <div class="cirkel center-block">
+                                <h5>Uddannelse</h5> 
+                            </div>
+                            <h4><strong> Htx - komm/it & design </strong></h4>
 
                             <p> Erhvervsskolen Nordsjælland
                                 <br>(2012-2015)
                             </p>
-                            <br>
-
-                            <h4 style="margin-bottom:0px;"><strong> Engelsk A - Enkeltsfag </strong></h4>
-
-                            <p> Niels Brock GSK
-                                <br>(Oktober - December 2015)
-                            </p>
-                            <br>
 
                             <h4><strong> PÅ MMD (KEA) har jeg arbejde med følgende</strong></h4>
-                            <ul style="list-style-type:disc" class="MMD_arbejde">
+                            <ul style="list-style-type:disc">
                                 <li>Målgruppeanalyser</li>
                                 <li>html, css, Bootstrap og javascript</li>
                                 <li>Design Teorier</li>
@@ -245,7 +146,7 @@
                             </ul>
 
                             <h4><strong> Som Webudvikler (KEA) har jeg arbejde med følgende</strong></h4>
-                            <ul style="list-style-type:disc" class="MMD_arbejde">
+                            <ul style="list-style-type:disc">
                                 <li>Database</li>
                                 <li>Interface design</li>
                                 <li>Angular</li>
@@ -257,42 +158,29 @@
 
                         </div>
 
-                        <div class="Erhvervserfaring col-md-4 col-sm-4">
-                            <div class="cirkel_erhverv center-block" style="margin-bottom:2vw;">Erhvervserfaring</div>
-                            <h4 style="margin-bottom:0px;"><strong> Best Doctors - Praktikant </strong></h4>
+                        <div class="Erhvervserfaring w-30">
+                            <div class="cirkel center-block">
+                                <h5>Erhvervserfaring</h5> 
+                            </div>
+                            <h4><strong> Best Doctors - Praktikant </strong></h4>
 
                             <p> Miami, USA (Januar - April 2016)</p>
 
                             <br>
-                            <h4 style="margin-bottom:0px;"><strong> CollectorsHome - Webansvarlig </strong></h4>
-
+                            <h4><strong> CollectorsHome - Webansvarlig </strong></h4>
                             <p> (Marts 2017 - )</p>
 
-                            <h4 style="margin-bottom:0px;"><strong> BetterHome - Praktikant </strong></h4>
-
+                            <h4><strong> BetterHome - Praktikant </strong></h4>
                             <p> (Januar - August 2019)</p>
-
-                            <br>
-
-                            <img src="img/IT%20skills.png" alt="IT skills" class="img-responsive">
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
-    </div>
+    </section>
 
-
-
-
-
-
-
-
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="js.js"></script>
 </body>
 
