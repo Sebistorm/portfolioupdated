@@ -144,9 +144,17 @@ nav {
 }
 
 .titel_portfolio {
+    background-color: white;
+    color: black;
+    padding: 15px 0px;
+    margin: 0px;
+    font-size: 1.7rem !important;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.titel_portfolio:hover {
+    background-color: #66696d !important;
     color: white;
-    margin-top: 1.5vw;
-    font-size: 2.599em !important;
 }
 
 .portfolio_padding {
@@ -184,6 +192,34 @@ nav {
 
 
 /*Project */
+
+.project {
+    margin-bottom: 4%;
+}
+
+.project img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.projectTextContainer {
+    background-color: #64b6a8;
+    color: white;
+    height: 35%;
+}
+
+.projectTextContainer a {
+    background-color: white;
+    font-size: 1.2rem;
+    width: 80%;
+    color: black;
+}
+
+.projectTextContainer a p {
+    color: black;
+    margin: 0;
+}
 
 /*Kontakt */
 

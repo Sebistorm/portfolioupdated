@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Kyoto",
+        "education": "mmd",
+        "weeks": 2,
+        "thumbnail": "https://pbs.twimg.com/media/CWozeY_WIAAzAfZ.jpg",
+        "url": "tv2.dk"
+
+    },
+    {
+        "title": "title 2",
+        "education": "mmd",
+        "weeks": 2,
+        "thumbnail": "https://pbs.twimg.com/media/CWozeY_WIAAzAfZ.jpg",
+        "url": "tv2.dk"
+    },
+    {
+        "title": "title 3",
+        "education": "mmd",
+        "weeks": 2,
+        "thumbnail": "https://pbs.twimg.com/media/CWozeY_WIAAzAfZ.jpg",
+        "url": "tv2.dk"
+    },
+    {
+        "title": "title 4",
+        "education": "mmd",
+        "weeks": 2,
+        "thumbnail": "https://pbs.twimg.com/media/CWozeY_WIAAzAfZ.jpg",
+        "url": "tv2.dk"
+    }
+]

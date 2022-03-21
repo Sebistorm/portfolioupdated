@@ -80,6 +80,41 @@ window.onload = function () {
 
 
 
+// projects
+
+fetch("json/projects.json")
+.then(Response => Response.json())
+.then(projects =>{
+    console.log(projects);
+    // div containers
+    const mmd_projects = document.getElementById("mmd_projects");
+    console.log(mmd_projects)
+
+    // loop igennem projekter
+    projects.forEach(project => {
+        console.log(project);
+        const projectHtml =  
+        `<div class="project w-30">
+            <a href="${project.url}" class="w-100">
+                <div class="col-12">
+                    <img src="${project.thumbnail}" alt="${project.title}" class="col-12">
+                    <h3 class="text-center titel_portfolio"> ${project.title}</h3>
+                </div>
+            </a>
+        </div>`;
+        //console.log(projectHtml);
+        
+        switch (project.education) {
+            case "mmd":
+                console.log("hej")
+                //mmd_projects.append(projectHtml);
+                mmd_projects.insertAdjacentHTML("beforeend",projectHtml )
+
+        }
+             
+
+    });
+})
 
 
 
