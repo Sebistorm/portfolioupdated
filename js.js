@@ -1,24 +1,4 @@
-
-
-$(function () {
-    // Smooth Scrolling
-    $('a[href*="#"]:not([href="#"])').click(function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
-        }
-    });
-});
-
-
 // typing carousel
-
 var TxtRotate = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -73,7 +53,6 @@ window.onload = function () {
     }
     // INJECT CSS
     var css = document.createElement("style");
-    css.type = "text/css";
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #ffffff }";
     document.body.appendChild(css);
 };
@@ -95,17 +74,18 @@ fetch("json/projects.json")
         console.log(project);
         const projectHtml =  
         `<div class="project w-30">
-            <a href="${project.url}" class="w-100">
+            <a href="project.html?id=${project.id}" class="w-100">
                 <div class="col-12">
-                    <img src="${project.thumbnail}" alt="${project.title}" class="col-12">
+                    <img src="img/${project.thumbnail}" alt="${project.title}" class="col-12">
                     <h3 class="text-center titel_portfolio"> ${project.title}</h3>
                 </div>
             </a>
         </div>`;
         //console.log(projectHtml);
         
+        // insert in the correct div
         switch (project.education) {
-            case "mmd":
+            case "Multimediedesigner":
                 console.log("hej")
                 //mmd_projects.append(projectHtml);
                 mmd_projects.insertAdjacentHTML("beforeend",projectHtml )

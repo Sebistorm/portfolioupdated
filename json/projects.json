@@ -1,31 +1,43 @@
 [
     {
+        "id": 1,
         "title": "Kyoto",
-        "education": "mmd",
+        "splashImage": "kyoto_billede_fullscreen.jpg",
+        "education": "Multimediedesigner",
         "weeks": 2,
-        "thumbnail": "https://pbs.twimg.com/media/CWozeY_WIAAzAfZ.jpg",
-        "url": "tv2.dk"
+        "thumbnail": "kyoto_billede_fullscreen.jpg",
+        "url": "tv2.dk",
+        "stack": "HTML, Javascript & CSS",
+        "purpose": "De unges valgdeltagelse har været ekstraordinært lav ved de seneste valg. Ved kommunal og regionsvalget i 2009 var det mere end hver anden i aldersgruppen 19-29 år, der ikke stemte til valget. Valgdeltagelsen ved valget i 2009 gjorde, at man for 12. år i træk havde en faldende valgdeltagelse blandt unge og forskellen på valgdeltagelsen mellem unge og ældre er blevet større. Koncept: Konceptidéen går ud på at oplyse de unge på humoristisk måde. en oplysningskampagne. Det kan kaldes et “ungdoms-opråb”, da kampagnen skal larme og vække opsigt hos målgruppen. I kampagnen tales der MED de unge i stedet for TIL de unge. På den måde bliver det en positiv opfordring til at stemme ved kommunal og regionsvalget i stedet for en løftet pegefinger."
 
     },
     {
+        "id": 2,
         "title": "title 2",
-        "education": "mmd",
+        "splashImage": "kyoto_billede_fullscreen.jpg",
+        "education": "Multimediedesigner",
         "weeks": 2,
-        "thumbnail": "https://pbs.twimg.com/media/CWozeY_WIAAzAfZ.jpg",
-        "url": "tv2.dk"
+        "thumbnail": "kyoto_billede_fullscreen.jpg",
+        "url": "https://sebstorm.dk/frenzy/login.php",
+        "stack": "HTML, Javascript & CSS",
+        "purpose": "Ved kommunal og regionsvalget i 2009 var det mere end Ved kommunal og regionsvalget i 2009 var det mere end Ved kommunal og regionsvalget i 2009 var det mere end Ved kommunal og regionsvalget i 2009 var det mere end Ved kommunal og regionsvalget i 2009 var det mere end De unges valgdeltagelse har været ekstraordinært lav ved de seneste valg. Ved kommunal og regionsvalget i 2009 var det mere end hver anden i aldersgruppen 19-29 år, der ikke stemte til valget. Valgdeltagelsen ved valget i 2009 gjorde, at man for 12. år i træk havde en faldende valgdeltagelse blandt unge og forskellen på valgdeltagelsen mellem unge og ældre er blevet større. Koncept: Konceptidéen går ud på at oplyse de unge på humoristisk måde. en oplysningskampagne. Det kan kaldes et “ungdoms-opråb”, da kampagnen skal larme og vække opsigt hos målgruppen. I kampagnen tales der MED de unge i stedet for TIL de unge. På den måde bliver det en positiv opfordring til at stemme ved kommunal og regionsvalget i stedet for en løftet pegefinger."
     },
     {
+        "id": 3,
         "title": "title 3",
-        "education": "mmd",
+        "education": "Multimediedesigner",
         "weeks": 2,
-        "thumbnail": "https://pbs.twimg.com/media/CWozeY_WIAAzAfZ.jpg",
-        "url": "tv2.dk"
+        "thumbnail": "kyoto_billede_fullscreen.jpg",
+        "url": "tv2.dk",
+        "stack": "HTML, Javascript & CSS"
     },
     {
+        "id": 4,
         "title": "title 4",
-        "education": "mmd",
+        "education": "Multimediedesigner",
         "weeks": 2,
-        "thumbnail": "https://pbs.twimg.com/media/CWozeY_WIAAzAfZ.jpg",
-        "url": "tv2.dk"
+        "thumbnail": "kyoto_billede_fullscreen.jpg",
+        "url": "tv2.dk",
+        "stack": "HTML, Javascript & CSS"
     }
 ]
