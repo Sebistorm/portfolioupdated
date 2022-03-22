@@ -6,38 +6,86 @@
         "education": "Multimediedesigner",
         "weeks": 2,
         "thumbnail": "kyoto_billede_fullscreen.jpg",
-        "url": "tv2.dk",
-        "stack": "HTML, Javascript & CSS",
-        "purpose": "De unges valgdeltagelse har været ekstraordinært lav ved de seneste valg. Ved kommunal og regionsvalget i 2009 var det mere end hver anden i aldersgruppen 19-29 år, der ikke stemte til valget. Valgdeltagelsen ved valget i 2009 gjorde, at man for 12. år i træk havde en faldende valgdeltagelse blandt unge og forskellen på valgdeltagelsen mellem unge og ældre er blevet større. Koncept: Konceptidéen går ud på at oplyse de unge på humoristisk måde. en oplysningskampagne. Det kan kaldes et “ungdoms-opråb”, da kampagnen skal larme og vække opsigt hos målgruppen. I kampagnen tales der MED de unge i stedet for TIL de unge. På den måde bliver det en positiv opfordring til at stemme ved kommunal og regionsvalget i stedet for en løftet pegefinger."
+        "url": "https://sebstorm.dk/kea/html/uge39/kyoto/site/index.html",
+        "stack": "HTML & CSS",
+        "purpose": "På 1 semester på multimediedesigner havde vi en opgave, hvor vi skulle redesigne en løsning. Løsningen skulle være responsiv og indeholde de informationer som allerede var på siden , men gerne være helt nyt i forhold til design og organisering af informationerne. Løsning skulle tage udgangspunkt i en analyse af det eksisterende site samt en test af websiden. Projektet skal ligeledes afsluttes med en test af jeres redesignede website. Vi gik efter en minimalistisk og kortfattet løsning med relevante informationer. Intentionen var at få kunderne ned i butikken og følge dem på de sociale medier og at man kan se hvad for noget tøj de i butikken har. Der skulle skabes en rød tråd på de forskellige sider på hjemmesiden, samt skabe en identitetsfarve til Kyoto, da deres nuværende faldt igennem"
 
     },
     {
         "id": 2,
-        "title": "title 2",
+        "title": "Sex & Samfund",
         "splashImage": "kyoto_billede_fullscreen.jpg",
         "education": "Multimediedesigner",
         "weeks": 2,
         "thumbnail": "kyoto_billede_fullscreen.jpg",
-        "url": "https://sebstorm.dk/frenzy/login.php",
+        "url": "http://sebstorm.dk/kea/animation/animation_projekt/index.html",
         "stack": "HTML, Javascript & CSS",
-        "purpose": "Ved kommunal og regionsvalget i 2009 var det mere end Ved kommunal og regionsvalget i 2009 var det mere end Ved kommunal og regionsvalget i 2009 var det mere end Ved kommunal og regionsvalget i 2009 var det mere end Ved kommunal og regionsvalget i 2009 var det mere end De unges valgdeltagelse har været ekstraordinært lav ved de seneste valg. Ved kommunal og regionsvalget i 2009 var det mere end hver anden i aldersgruppen 19-29 år, der ikke stemte til valget. Valgdeltagelsen ved valget i 2009 gjorde, at man for 12. år i træk havde en faldende valgdeltagelse blandt unge og forskellen på valgdeltagelsen mellem unge og ældre er blevet større. Koncept: Konceptidéen går ud på at oplyse de unge på humoristisk måde. en oplysningskampagne. Det kan kaldes et “ungdoms-opråb”, da kampagnen skal larme og vække opsigt hos målgruppen. I kampagnen tales der MED de unge i stedet for TIL de unge. På den måde bliver det en positiv opfordring til at stemme ved kommunal og regionsvalget i stedet for en løftet pegefinger."
+        "purpose": "På 1. semester skulle vi lave en animation for sex & samfund, som skulle sætte fokus på ældre mennesker seksualitet. Det er meningen at læger og sundhedspersonale skal kunne bruge animation sammen med sex & samfund’s oplysningsplakat. Derudover skulle den inspirerer lægen/sundhedsprofessionelle til at bryde tavsheden og spørge ind til borgerens seksualitet og seksuelle sundhed og trivsel. Fra et kodeperspektiv var formålet at lære de forskellige CSS og javascript animationer."
     },
     {
         "id": 3,
-        "title": "title 3",
+        "title": "Verdenshjørnet",
+        "splashImage": "kyoto_billede_fullscreen.jpg",
         "education": "Multimediedesigner",
-        "weeks": 2,
+        "weeks": 3,
         "thumbnail": "kyoto_billede_fullscreen.jpg",
-        "url": "tv2.dk",
-        "stack": "HTML, Javascript & CSS"
+        "url": "http://sebstorm.dk/kea/2semester/design_in_browser/final_iteration/index.html",
+        "stack": "HTML, Javascript & CSS",
+        "purpose": "På 1. semester skulle vi lave et website hvis design skulle være friskt og nutidigt - men samtidigt trække på inspiration fra en kendt stilart. Designet skulle afspejle kundens/klientenens værdier, men også turde udfordre det eksisterende design. Designet skulle afspejle kundens tilhørsforhold til Nørrebro. En prototype af det redesignede website skal udvikles ved hjælp af Bootstrap. Her skulle vi vise vores grundlæggende kendskab i anvendelse af Bootstraps komplekse grid-system samt at skabe dynamik på siden ved hjælp af javascript/jQuery elementer. "
     },
     {
         "id": 4,
-        "title": "title 4",
+        "title": "#MitFuckingValg",
+        "splashImage": "kyoto_billede_fullscreen.jpg",
+        "education": "Multimediedesigner",
+        "weeks": 4,
+        "thumbnail": "kyoto_billede_fullscreen.jpg",
+        "url": "http://www.sebstorm.dk/mitfuckingvalg/index.html",
+        "stack": "HTML, Javascript & CSS",
+        "purpose": "På 2. Semester skulle vi lave et website til de unge, hvor de kunne søge informationer til kommunalvalget. De unges valgdeltagelse har været ekstraordinært lav ved de seneste valg. Ved kommunal og regionsvalget i 2009 var det mere end hver anden i aldersgruppen 19-29 år, der ikke stemte til valget. Valgdeltagelsen ved valget i 2009 gjorde, at man for 12. år i træk havde en faldende valgdeltagelse blandt unge og forskellen på valgdeltagelsen mellem unge og ældre er blevet større.Konceptidéen går ud på at oplyse de unge på humoristisk måde. En oplysningskampagne. Det kan kaldes et “ungdoms-opråb”, da kampagnen skulle larme og vække opsigt hos målgruppen. I kampagnen tales der MED de unge i stedet for TIL de unge. På den måde bliver det en positiv opfordring til at stemme ved kommunal og regionsvalget i stedet for en løftet pegefinger."
+    },
+    {
+        "id": 5,
+        "title": "Casual Games",
+        "splashImage": "kyoto_billede_fullscreen.jpg",
+        "education": "Multimediedesigner",
+        "weeks": 3,
+        "thumbnail": "kyoto_billede_fullscreen.jpg",
+        "url": "https://sebstorm.dk/kea/3semester/casualGames/eksamensprojekt/index.html",
+        "stack": "Javascript & Canvas",
+        "purpose": "På 3. semester i casual games skulle der laves en javascript spil ved hjælp af javascript biblioteket Canvas. Ud fra et kodeperspektiv var formålet at blive en haj til javascript. Det blev gjort ved en lidt atypisk måde ved at kode et spil, som både var interessant og sjovt at prøve. Derudover skulle der også tænke på stilarten af spillet. "
+    },
+    {
+        "id": 6,
+        "title": "Artmoney",
+        "splashImage": "kyoto_billede_fullscreen.jpg",
+        "education": "Multimediedesigner",
+        "weeks": 3,
+        "thumbnail": "kyoto_billede_fullscreen.jpg",
+        "url": "http://sebstorm.dk/artmoney/site/index.php",
+        "stack": "HTML, CSS & wordpress",
+        "purpose": "På 3. semester skulle der udvikles et website for artmoney, hvor webløsning for artmoney.org skulle udvikles, designes og implementeres, så den formidler artmoney konceptet, dækker kunstnernes og brugernes behov. Formålet ud fra et kodeperspektiv var at bruge et af wordpress’s plugin som en database, som skulle holde på informationerne på kunstobjekterne. Det skulle derfor fungeres som en REST API  "
+    },
+    {
+        "id": 7,
+        "title": "NKF",
+        "splashImage": "kyoto_billede_fullscreen.jpg",
+        "education": "Multimediedesigner",
+        "weeks": 4,
+        "thumbnail": "kyoto_billede_fullscreen.jpg",
+        "url": "https://sebstorm.dk/NKF/fodboldspiller.html",
+        "stack": "HTML, Javascript, CSS & Json",
+        "purpose": "I mit afsluttende projekt på multimediedesigner valgte jeg at gå sammen med min barndoms fodboldklub Nivå Kokkedal fodbold for at lave et redesign af deres hjemmeside. Et redesign, hvor Nivå-Kokkedal-Fodboldklubs visuelle identitet og dens fællesskab kommer til udtryk. I dette projekt blev der brugte JSON som skulle fungere som en database, som skulle holde på de forskellige spillere. I den virkelige verden ville det ikke være en optimal løsning pga. GDPR men jeg fik først undervisning i databaser på Webudvikler uddannelsen"
+    },
+    {
+        "id": 8,
+        "title": "Sex & Samfund",
+        "splashImage": "kyoto_billede_fullscreen.jpg",
         "education": "Multimediedesigner",
         "weeks": 2,
         "thumbnail": "kyoto_billede_fullscreen.jpg",
-        "url": "tv2.dk",
-        "stack": "HTML, Javascript & CSS"
+        "url": "http://sebstorm.dk/kea/animation/animation_projekt/index.html",
+        "stack": "HTML, Javascript & CSS",
+        "purpose": ""
     }
 ]

@@ -73,7 +73,7 @@ fetch("json/projects.json")
     projects.forEach(project => {
         console.log(project);
         const projectHtml =  
-        `<div class="project w-30">
+        `<div class="project">
             <a href="project.html?id=${project.id}" class="w-100">
                 <div class="col-12">
                     <img src="img/${project.thumbnail}" alt="${project.title}" class="col-12">

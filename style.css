@@ -54,6 +54,10 @@ h6 {
     width: 30%;
 }
 
+.max-width-1024 {
+    max-width: 1024px;
+}
+
 
 /* Nav */
 nav {
@@ -107,28 +111,11 @@ nav {
     display: none !important;
 }
 
-.portfolio_venstre {
-    transition: opacity 1s;
-}
-
-.portfolio_venstre:hover {
-    cursor: pointer;
-}
-
-.portfolio_midt {
-    transition: opacity 1s;
-}
-
-.portfolio_midt:hover {
-    cursor: pointer;
-}
-
-.portfolio_hojre {
-    transition: background-color 1s;
-}
-
-.portfolio_hojre:hover {
-    cursor: pointer;
+.projectsContainer {
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .titel_portfolio {
@@ -191,12 +178,8 @@ nav {
 
 /*Project */
 
-.project {
-    margin-bottom: 4%;
-}
-
 .project img {
-    height: 250px;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
