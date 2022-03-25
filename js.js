@@ -67,11 +67,13 @@ fetch("json/projects.json")
     console.log(projects);
     // div containers
     const mmd_projects = document.getElementById("mmd_projects");
-    console.log(mmd_projects)
+    const webDev_projects = document.getElementById("webDev_projects");
+    const dataMat_projects = document.getElementById("dataMat_projects");
+    //console.log(mmd_projects)
 
     // loop igennem projekter
     projects.forEach(project => {
-        console.log(project);
+        //console.log(project);
         const projectHtml =  
         `<div class="project">
             <a href="project.html?id=${project.id}" class="w-100">
@@ -86,10 +88,17 @@ fetch("json/projects.json")
         // insert in the correct div
         switch (project.education) {
             case "Multimediedesigner":
-                console.log("hej")
-                //mmd_projects.append(projectHtml);
-                mmd_projects.insertAdjacentHTML("beforeend",projectHtml )
-
+                console.log("Multi")
+                mmd_projects.insertAdjacentHTML("beforeend", projectHtml);
+                break;
+            case "Webudvikler":
+                console.log("WebDev")
+                webDev_projects.insertAdjacentHTML("beforeend", projectHtml);
+                break;
+            case "Datamatiker":
+                console.log("DataMatiker")
+                dataMat_projects.insertAdjacentHTML("beforeend", projectHtml);
+                break;
         }
              
 
