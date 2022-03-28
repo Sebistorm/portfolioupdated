@@ -91,6 +91,16 @@ nav {
     margin: 0;
 }
 
+.project-splashbillede {
+    padding: 0 !important;
+    width: 100%;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+}
+
 .typing_carousel {
     position: absolute;
     color: white;
@@ -161,20 +171,6 @@ nav {
     color: white !important;
 }
 
-.cirkel {
-    border-radius: 5px;
-    font-size: 1.2em;
-    color: black;
-    text-align: center;
-    background: #566a62;
-    font-family: 'Montserrat', 'sans-serif' !important;
-    font-weight: 400;
-    margin: 0px 0px 15px;
-}
-
-.cirkel h5 {
-    padding: 10px 10px;
-}
 
 
 /*Project */
@@ -222,6 +218,18 @@ nav {
     padding: 10px 20px;
 }
 
+.profil {
+    padding-right: 1rem;
+}
+
+.uddannelse  {
+    padding: 0 0.5rem;
+}
+
+.Erhvervserfaring  {
+    padding-left: 1rem;
+}
+
 
 /* Project site*/
 
@@ -247,6 +255,20 @@ nav {
     border-radius: 10px;
 }
 
+@media screen and (max-width: 1000px) {
+    .projectsContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .d-none_mobile {
+        display: none;
+    }
+
+    .skrivebord2 {
+        display: block !important;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .splashInfo > div:nth-child(2) {
         padding: 0.1rem;
@@ -259,5 +281,27 @@ nav {
     .splashInfo > div {
         padding: 0.3rem;
     }
-  }
+
+    .projectsContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .skrivebord2 {
+        display: none !important;
+    }
+
+    #projectSideImg {
+        padding: 0 !important;
+    }
+
+    .projectOverlay {
+        padding: 1rem 3rem;
+    }
+
+    nav {
+        position: unset !important;
+    }
+}
+
+
 

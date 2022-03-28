@@ -79,7 +79,7 @@ fetch("json/projects.json")
             <a href="project.html?id=${project.id}" class="w-100">
                 <div class="col-12">
                     <img src="img/${project.thumbnail}" alt="${project.title}" class="col-12">
-                    <h3 class="text-center titel_portfolio"> ${project.title}</h3>
+                    <h3 class="text-center titel_portfolio border-top border-dark border-2"> ${project.title}</h3>
                 </div>
             </a>
         </div>`;

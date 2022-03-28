@@ -26,30 +26,28 @@
     </nav>
 
     <section class="w-100">
-        <div class="row splashbillede">
+        <div class="row project-splashbillede">
             <div class="col-12 d-flex justify-content-center align-items-center text-center flex-column">
                 <div class="projectOverlay">
-                    <h1 id="projectTitle" class="mb-4">Kyoto</h1>
-                    <a id="projectTitleAtag" class="btn btn-white mb-0" href="/">Gå til Kyoto</a>
+                    <h1 id="projectTitle" class="mb-4"></h1>
+                    <a id="projectTitleAtag" class="btn btn-white mb-0" href="/"></a>
+                    <a id="projectTitleAtag2" class="btn btn-white mb-0" href="/"></a>
                 </div>
             </div>
         </div>
         <div class="row bg-white d-flex text-center w-100 m-0 splashInfo border-top border-dark border-2">
-            <div class="col-12 col-md-4" style="margin: auto 0;"><i class="fa-solid fa-calendar-week"></i> <span id="weeks" class="ms-2">2 uger</span></div>
-            <div class="col-12 col-md-4" style="margin: auto 0;"><i class="fa-solid fa-layer-group"></i> <span id="stack" class="ms-2">javascript, HTML & CSS</span></div>
-            <div class="col-12 col-md-4" style="margin: auto 0;"><i class="fa-solid fa-graduation-cap"></i> <span id="education" class="ms-2">Multimediedesigner</span></div>
+            <div class="col-12 col-md-4" style="margin: auto 0;"><i class="fa-solid fa-calendar-week"></i> <span id="weeks" class="ms-2"></span></div>
+            <div class="col-12 col-md-4" style="margin: auto 0;"><i class="fa-solid fa-layer-group"></i> <span id="stack" class="ms-2"></span></div>
+            <div class="col-12 col-md-4" style="margin: auto 0;"><i class="fa-solid fa-graduation-cap"></i> <span id="education" class="ms-2"></span></div>
         </div>
     </section>
 
     <section class="container mt-5">
         <div class="row">
             <h2>Formål</h2>
-            <div class="col-12 d-flex">
-                <p id="purpose_desc" class="col-12 col-md-6"> De unges valgdeltagelse har været ekstraordinært lav ved de seneste valg. Ved kommunal og regionsvalget i 2009 var det mere end hver anden i aldersgruppen 19-29 år, der ikke stemte til valget. Valgdeltagelsen ved valget i 2009 gjorde, at man for 12. år i træk havde en faldende valgdeltagelse blandt unge og forskellen på valgdeltagelsen mellem unge og ældre er blevet større. Koncept: Konceptidéen går ud på at oplyse de unge på humoristisk måde. en oplysningskampagne. Det kan kaldes et “ungdoms-opråb”, da kampagnen skal larme og vække opsigt hos målgruppen. I kampagnen tales der MED de unge i stedet for TIL de unge. På den måde bliver det en positiv opfordring til at stemme ved kommunal og regionsvalget i stedet for en løftet pegefinger.</p>
-                <img id="projectSideImg" class="col-12 col-md-6 ps-4" src="https://pbs.twimg.com/media/CWozeY_WIAAzAfZ.jpg" alt="yes">
-            </div>
-            <div class="col-12 col-md-6 flex-grow-1">
-                
+            <div class="col-12 d-flex flex-wrap">
+                <p id="purpose_desc" class="col-12 col-md-6"></p>
+                <img id="projectSideImg" class="col-12 col-md-6 ps-4" src="" alt="yes">
             </div>
             
         </div>
@@ -71,14 +69,21 @@
             // find the project
             const project = projects.find(project => project.id == projectID);
             // SplashImage
-            document.querySelector(".splashbillede").style.backgroundImage = `url('img/${project.splashImage}')`;
+            document.querySelector(".project-splashbillede").style.backgroundImage = `url('img/${project.splashImage}')`;
             // title
             document.getElementById("projectTitle").textContent = project.title;
             // a-tag
-            document.getElementById("projectTitleAtag").textContent = "Gå til " + project.title;
-            document.getElementById("projectTitleAtag").href = project.url;
+            document.getElementById("projectTitleAtag").textContent = project.url.text;
+            document.getElementById("projectTitleAtag").href = project.url.url;
+
+            if (project.url2) {
+                document.getElementById("projectTitleAtag2").textContent = project.url2.text;
+                document.getElementById("projectTitleAtag2").href = project.url2.url;
+            } else {
+                document.getElementById("projectTitleAtag2").classList.add("d-none")
+            }
             // weeks
-            document.getElementById("weeks").textContent = project.weeks + " uger";
+            document.getElementById("weeks").textContent = project.weeks;
             // Stacks
             document.getElementById("stack").textContent = project.stack
             // Education
