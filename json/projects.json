@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Kyoto",
-        "splashImage": "kyoto.jpg",
+        "splashImage": "Kyoto.jpg",
         "education": "Multimediedesigner",
         "weeks": "2 uger",
         "thumbnail": "kyoto_thumbnail.jpg",
@@ -17,7 +17,7 @@
     {
         "id": 2,
         "title": "Sex & Samfund",
-        "splashImage": "samfund.jpg",
+        "splashImage": "samfund.JPG",
         "education": "Multimediedesigner",
         "weeks": "2 uger",
         "thumbnail": "samfund_thumbnail.jpg",
@@ -31,7 +31,7 @@
     {
         "id": 3,
         "title": "Verdenshjørnet",
-        "splashImage": "verdenshjornet.jpg",
+        "splashImage": "verdenshjornet.JPG",
         "education": "Multimediedesigner",
         "weeks": "2 uger",
         "thumbnail": "verdenshjornet_thumbnail.jpg",
@@ -45,7 +45,7 @@
     {
         "id": 4,
         "title": "#MitFuckingValg",
-        "splashImage": "valg.jpg",
+        "splashImage": "valg.JPG",
         "education": "Multimediedesigner",
         "weeks": "4 uger",
         "thumbnail": "mitf_mikroani1.jpg",
@@ -59,7 +59,7 @@
     {
         "id": 5,
         "title": "Casual Games",
-        "splashImage": "casualGames.jpg",
+        "splashImage": "casualGames.JPG",
         "education": "Multimediedesigner",
         "weeks": "3 uger",
         "thumbnail": "casualGames_thumbnail.jpg",
@@ -73,7 +73,7 @@
     {
         "id": 6,
         "title": "Artmoney",
-        "splashImage": "artmoney.jpg",
+        "splashImage": "artmoney.JPG",
         "education": "Multimediedesigner",
         "weeks": "3 uger",
         "thumbnail": "artmoney_thumbnail.jpg",
@@ -87,7 +87,7 @@
     {
         "id": 7,
         "title": "NKF",
-        "splashImage": "NKF.jpg",
+        "splashImage": "NKF.JPG",
         "education": "Multimediedesigner",
         "weeks": "4 uger",
         "thumbnail": "NKF_thumbnail.jpg",
@@ -101,7 +101,7 @@
     {
         "id": 8,
         "title": "Interface Design",
-        "splashImage": "interface.jpg",
+        "splashImage": "interface.JPG",
         "education": "Webudvikler",
         "weeks": "3 uger",
         "thumbnail": "interface_thumbnail.jpg",
@@ -115,10 +115,10 @@
     {
         "id": 9,
         "title": "Web Security",
-        "splashImage": "security.jpg",
+        "splashImage": "security.JPG",
         "education": "Webudvikler",
         "weeks": "3 uger",
-        "thumbnail": "security_thumbnail.jpg",
+        "thumbnail": "security_thumbnail.JPG",
         "url": {
             "url": "https://sebstorm.dk/security/login.php",
             "text": "Gå til Web Security"
@@ -129,7 +129,7 @@
     {
         "id": 10,
         "title": "Database",
-        "splashImage": "database.jpg",
+        "splashImage": "database.JPG",
         "education": "Webudvikler",
         "weeks": "3 uger",
         "thumbnail": "database_thumbnail.jpg",
@@ -143,7 +143,7 @@
     {
         "id": 11,
         "title": "NodeJS - Mandatory 1",
-        "splashImage": "manda1NodeJS.jpg",
+        "splashImage": "manda1NodeJS.JPG",
         "education": "Datamatiker",
         "weeks": "1 uge",
         "thumbnail": "manda1NodeJS_thumbnail.jpg",
@@ -157,7 +157,7 @@
     {
         "id": 12,
         "title": "Kommunalvalg",
-        "splashImage": "kommunalvalg.jpg",
+        "splashImage": "kommunalvalg.JPG",
         "education": "Datamatiker",
         "weeks": "24 Timer",
         "thumbnail": "kommunalvalg_thumbnail.jpg",
@@ -175,7 +175,7 @@
     {
         "id": 13,
         "title": "Car Rental",
-        "splashImage": "carrental.jpg",
+        "splashImage": "carrental.JPG",
         "education": "Datamatiker",
         "weeks": "3 uger",
         "thumbnail": "carrental_thumbnail.jpg",
