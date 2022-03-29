@@ -141,7 +141,7 @@ nav {
 }
 
 .titel_portfolio:hover {
-    background-color: #66696d !important;
+    background-color: #1b2a38 !important;
     color: white;
 }
 
@@ -251,11 +251,32 @@ nav {
 
 .projectOverlay {
     padding: 1rem 6rem;
-    background-color: #747474ba;
+    background-color: #1b2a38e6;
     border-radius: 10px;
 }
 
 @media screen and (max-width: 1000px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+    
+    h2 {
+        font-size: 1.7rem !important;
+    }
+    
+    h3 {
+        font-size: 1.2rem !important;
+    }
+    
+    h4 {
+        font-size: 1.2rem !important;
+    }
+
+    .typing_carousel {
+        font-size: 2rem !important;
+        padding: 0 2%;
+    }
+
     .projectsContainer {
         grid-template-columns: 1fr 1fr;
     }
@@ -270,6 +291,16 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+    .btn-white {
+        font-size: 1rem;
+    }
+
+    .typing_carousel {
+        font-size: 1.5rem !important;
+        padding: 0 2%;
+    }
+
+
     .splashInfo > div:nth-child(2) {
         padding: 0.1rem;
         border-top: 2px solid black;
@@ -292,6 +323,8 @@ nav {
 
     #projectSideImg {
         padding: 0 !important;
+        object-fit: contain;
+        height: auto !important;
     }
 
     .projectOverlay {
@@ -300,6 +333,10 @@ nav {
 
     nav {
         position: unset !important;
+    }
+
+    #kontakt {
+        max-width: 95%;
     }
 }
 
