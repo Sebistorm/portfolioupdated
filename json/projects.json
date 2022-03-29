@@ -11,7 +11,7 @@
             "text": "Gå til Kyoto"
         },
         "stack": "HTML & CSS",
-        "purpose": "På 1 semester på multimediedesigner havde vi en opgave, hvor vi skulle redesigne en løsning. Løsningen skulle være responsiv og indeholde de informationer som allerede var på siden , men gerne være helt nyt i forhold til design og organisering af informationerne. Løsning skulle tage udgangspunkt i en analyse af det eksisterende site samt en test af websiden. Projektet skal ligeledes afsluttes med en test af jeres redesignede website. Vi gik efter en minimalistisk og kortfattet løsning med relevante informationer. Intentionen var at få kunderne ned i butikken og følge dem på de sociale medier og at man kan se hvad for noget tøj de i butikken har. Der skulle skabes en rød tråd på de forskellige sider på hjemmesiden, samt skabe en identitetsfarve til Kyoto, da deres nuværende faldt igennem"
+        "purpose": "På 1. semester på multimediedesigner havde vi en opgave, hvor vi skulle redesigne en løsning. Løsningen skulle være responsiv og indeholde de informationer, som allerede var på siden, men gerne være helt nyt i forhold til design og organisering af informationerne. Løsningen skulle tage udgangspunkt i en analyse af det eksisterende site samt en test af websiden. Projektet skulle ligeledes afsluttes med en test af det redesignede website. Vi gik efter en minimalistisk og kortfattet løsning med relevante informationer. Intentionen var at få kunderne ned i butikken og få dem til at følge butikken på de sociale medier. Der skulle skabes en rød tråd på de forskellige sider på hjemmesiden og skabes en identitetsfarve til Kyoto, da deres nuværende faldt igennem."
 
     },
     {
@@ -26,7 +26,7 @@
             "text": "Gå til Sex & Samfund"
         },
         "stack": "HTML, Javascript & CSS",
-        "purpose": "På 1. semester skulle vi lave en animation for sex & samfund, som skulle sætte fokus på ældre mennesker seksualitet. Det er meningen at læger og sundhedspersonale skal kunne bruge animation sammen med sex & samfund’s oplysningsplakat. Derudover skulle den inspirerer lægen/sundhedsprofessionelle til at bryde tavsheden og spørge ind til borgerens seksualitet og seksuelle sundhed og trivsel. Fra et kodeperspektiv var formålet at lære de forskellige CSS og javascript animationer."
+        "purpose": "På 1. semester skulle vi lave en animation for sex & samfund, som skulle sætte fokus på ældre menneskers seksualitet. Det er meningen at læger og sundhedspersonale skal kunne bruge animationen sammen med sex & samfund’s oplysningsplakat. Derudover skulle den inspirere lægen/sundhedsprofessionelle til at bryde tavsheden og spørge ind til borgerens seksualitet og seksuelle sundhed og trivsel. Fra et kodeperspektiv var formålet at lære de forskellige CSS og javascript animationer."
     },
     {
         "id": 3,
@@ -40,7 +40,7 @@
             "text": "Gå til Verdenshjørnet"
         },
         "stack": "HTML, Javascript & CSS",
-        "purpose": "På 1. semester skulle vi lave et website hvis design skulle være friskt og nutidigt - men samtidigt trække på inspiration fra en kendt stilart. Designet skulle afspejle kundens/klientenens værdier, men også turde udfordre det eksisterende design. Designet skulle afspejle kundens tilhørsforhold til Nørrebro. En prototype af det redesignede website skal udvikles ved hjælp af Bootstrap. Her skulle vi vise vores grundlæggende kendskab i anvendelse af Bootstraps komplekse grid-system samt at skabe dynamik på siden ved hjælp af javascript/jQuery elementer. "
+        "purpose": "På 1. semester skulle vi lave et website, hvis design skulle være friskt og nutidigt - men samtidig trække på inspiration fra en kendt stilart. Designet skulle afspejle kundens/klientenens værdier, men også turde udfordre det eksisterende design. Designet skulle afspejle kundens tilhørsforhold til Nørrebro. En prototype af det redesignede website skulle udvikles ved hjælp af Bootstrap. Her skulle vi vise vores grundlæggende kendskab til anvendelse af Bootstraps komplekse grid-system samt skabe dynamik på siden ved hjælp af javascript/jQuery elementer."
     },
     {
         "id": 4,
@@ -54,7 +54,7 @@
             "text": "Gå til #MitFuckingValg"
         },
         "stack": "HTML, Javascript & CSS",
-        "purpose": "På 2. Semester skulle vi lave et website til de unge, hvor de kunne søge informationer til kommunalvalget. De unges valgdeltagelse har været ekstraordinært lav ved de seneste valg. Ved kommunal og regionsvalget i 2009 var det mere end hver anden i aldersgruppen 19-29 år, der ikke stemte til valget. Valgdeltagelsen ved valget i 2009 gjorde, at man for 12. år i træk havde en faldende valgdeltagelse blandt unge og forskellen på valgdeltagelsen mellem unge og ældre er blevet større.Konceptidéen går ud på at oplyse de unge på humoristisk måde. En oplysningskampagne. Det kan kaldes et “ungdoms-opråb”, da kampagnen skulle larme og vække opsigt hos målgruppen. I kampagnen tales der MED de unge i stedet for TIL de unge. På den måde bliver det en positiv opfordring til at stemme ved kommunal og regionsvalget i stedet for en løftet pegefinger."
+        "purpose": "På 2. semester skulle vi lave et website til de unge, hvor de kunne søge informationer til kommunalvalget. De unges valgdeltagelse har været ekstraordinært lav ved de seneste valg. Ved kommunal- og regionsvalget i 2009 var det mere end hver anden i aldersgruppen 19-29 år, der ikke stemte til valget. Valgdeltagelsen ved valget i 2009 gjorde, at man for 12. år i træk havde en faldende valgdeltagelse blandt unge, og forskellen på valgdeltagelsen mellem unge og ældre er blevet større. Konceptidéen går ud på at oplyse de unge på en humoristisk måde via en oplysningskampagne. Det kan kaldes et “ungdoms-opråb”, da kampagnen skulle larme og vække opsigt hos målgruppen. I kampagnen tales der MED de unge i stedet for TIL de unge. På den måde bliver det en positiv opfordring til at stemme ved kommunal- og regionsvalget i stedet for en løftet pegefinger."
     },
     {
         "id": 5,
@@ -68,7 +68,7 @@
             "text": "Gå til Casual Games"
         },
         "stack": "Javascript & Canvas",
-        "purpose": "På 3. semester i casual games skulle der laves en javascript spil ved hjælp af javascript biblioteket Canvas. Ud fra et kodeperspektiv var formålet at blive en haj til javascript. Det blev gjort ved en lidt atypisk måde ved at kode et spil, som både var interessant og sjovt at prøve. Derudover skulle der også tænke på stilarten af spillet. "
+        "purpose": "På 3. semester i casual games skulle der laves et javascript spil ved hjælp af javascript biblioteket Canvas. Ud fra et kodeperspektiv var formålet at blive en haj til javascript. Det blev gjort på en lidt atypisk måde ved at kode et spil, hvilket både var interessant og sjovt at prøve. Derudover skulle der også tænkes på stilarten af spillet."
     },
     {
         "id": 6,
@@ -82,7 +82,7 @@
             "text": "Gå til Artmoney"
         },
         "stack": "HTML, CSS & wordpress",
-        "purpose": "På 3. semester skulle der udvikles et website for artmoney, hvor webløsning for artmoney.org skulle udvikles, designes og implementeres, så den formidler artmoney konceptet, dækker kunstnernes og brugernes behov. Formålet ud fra et kodeperspektiv var at bruge et af wordpress’s plugin som en database, som skulle holde på informationerne på kunstobjekterne. Det skulle derfor fungeres som en REST API  "
+        "purpose": "På 3. semester skulle der udvikles et website for artmoney, hvor webløsningen for artmoney.org skulle udvikles, designes og implementeres, så den formidler artmoney konceptet, dækker kunstnernes og brugernes behov. Formålet ud fra et kodeperspektiv var at bruge et af wordpress’s plugin som en database, som skulle holde på informationerne på kunstobjekterne. Det skulle derfor fungere som en REST API."
     },
     {
         "id": 7,
@@ -96,7 +96,7 @@
             "text": "Gå til NKF"
         },
         "stack": "HTML, Javascript, CSS & Json",
-        "purpose": "I mit afsluttende projekt på multimediedesigner valgte jeg at gå sammen med min barndoms fodboldklub Nivå Kokkedal fodbold for at lave et redesign af deres hjemmeside. Et redesign, hvor Nivå-Kokkedal-Fodboldklubs visuelle identitet og dens fællesskab kommer til udtryk. I dette projekt blev der brugte JSON som skulle fungere som en database, som skulle holde på de forskellige spillere. I den virkelige verden ville det ikke være en optimal løsning pga. GDPR men jeg fik først undervisning i databaser på Webudvikler uddannelsen"
+        "purpose": "I mit afsluttende projekt på multimediedesigner valgte jeg at gå sammen med min barndoms fodboldklub Nivå Kokkedal fodbold for at lave et redesign af deres hjemmeside. Et redesign, hvor Nivå-Kokkedal-Fodboldklubs visuelle identitet og dens fællesskab kommer til udtryk. I dette projekt blev der brugt JSON, som skulle fungere som en database for oplysninger på de forskellige spillere. I den virkelige verden ville det ikke være en optimal løsning pga. GDPR, men jeg fik først undervisning i databaser på Webudvikler uddannelsen."
     },
     {
         "id": 8,
@@ -110,7 +110,7 @@
             "text": "Gå til Interface Design"
         },
         "stack": "HTML, Javascript & CSS",
-        "purpose": "På 1.semester som Webudvikler havde vi et projekt hvor der var fokus på processen til at finde det rette UI og UX til en webapplikation. I slutningen af projektet skulle der være en tidlig prototype klar, som skulle kodes ved hjælp af HTML, CSS og javascript."
+        "purpose": "På 1.semester som Webudvikler havde vi et projekt, hvor der var fokus på processen til at finde det rette UI og UX til en webapplikation. I slutningen af projektet skulle der være en tidlig prototype klar, som skulle kodes ved hjælp af HTML, CSS og javascript."
     },
     {
         "id": 9,
@@ -124,7 +124,7 @@
             "text": "Gå til Web Security"
         },
         "stack": "HTML, Javascript, CSS & PHP",
-        "purpose": "På 2. semester som webudvikler havde jeg et valgfag, hvor der var fokus på sikkerheden på en webapplikation. Her skulle vi lærer hvordan man kunne beskytte sig mod Ddos, sql injection eller andre typer af angreb. Her var der ikke fokus på selve Interface design men mere hvordan man gør en webapplikation så sikkert som muligt. I slutningen af projektet skulle vi alle prøve at 'angrebe' hinandens løsninger."
+        "purpose": "På 2. semester som webudvikler havde jeg et valgfag, hvor der var fokus på sikkerheden på en webapplikation. Her skulle vi lære, hvordan man kunne beskytte sig mod Ddos, sql injection eller andre typer af angreb. Her var der ikke fokus på selve Interface design men mere, hvordan man gør en webapplikation så sikker som muligt. I slutningen af projektet skulle vi alle prøve at 'angribe' hinandens løsninger."
     },
     {
         "id": 10,
@@ -138,7 +138,7 @@
             "text": "Gå til Database projektet"
         },
         "stack": "HTML, Javascript, CSS & PHP",
-        "purpose": "På 1. semester som webudvikler skulle vi inkorporerer en database til projektets webløsning. Her var der fokus på hvordan man laver CRUD (Create, Read, Update & Delete) fra og til databasen. Sproget som blev brugt var MySQL. I dette projekt var der ikke fokus på Frontend."
+        "purpose": "På 1. semester som webudvikler skulle vi inkorporere en database til projektets webløsning. Her var der fokus på, hvordan man laver CRUD (Create, Read, Update & Delete) fra og til databasen. Sproget, som blev brugt, var MySQL. I dette projekt var der ikke fokus på Frontend."
     },
     {
         "id": 11,
@@ -152,7 +152,7 @@
             "text": "Gå til NodeJS - Mandatory 1"
         },
         "stack": "NodeJS",
-        "purpose": "I dette projekt skulle vi lave en dokumentation webapplikation på hvad vi havde lært indtil videre på NodeJS valgfaget. Her skulle vi bruge nodejs og der var fokus på at det skulle sættes pænt op"
+        "purpose": "I dette projekt skulle vi lave en dokumentations webapplikation på, hvad vi havde lært indtil videre på NodeJS valgfaget. Her skulle vi bruge nodejs, og der var fokus på, at det skulle sættes pænt op."
     },
     {
         "id": 12,
@@ -170,7 +170,7 @@
             "text": "Github Frontend"
         },
         "stack": "Java, HTML, CSS & Javascript",
-        "purpose": "Dette er mit eksamensprojekt for mit programmeringsfag på 3. Semester. Vi skulle kode et fullstack projekt på 24 timer. Her skulle vi bruge Spring/java som skulle fungerer som en REST API til vores frontend, som blev i HTML, CSS og javascript. Projektet var omkring det seneste kommunalvalg, hvor man skulle fokusere på en kommune."
+        "purpose": "Dette er mit eksamensprojekt for mit programmeringsfag på 3. semester. Vi skulle kode et fullstack projekt på 24 timer. Her skulle vi bruge Spring/java, som skulle fungere som en REST API til vores frontend, som blev i HTML, CSS og javascript. Projektet var omkring det seneste kommunalvalg, hvor man skulle fokusere på en kommune."
     },
     {
         "id": 13,
@@ -184,6 +184,6 @@
             "text": "Gå til Github"
         },
         "stack": "Java, HTML, CSS",
-        "purpose": "Dette er eksamensprojektet fra 2. Semester. Her fik vi en fiktiv kunde, som var en biludlejning forretning. Vi skulle lave en applikation til deres medarbejedere hvor de kunne registrere deres kunder, biler og booking af biler. Projektet skulle kodes i Spring frameworket, hvor der blev brugt Java, MySql Html & CSS."
+        "purpose": "Dette er eksamensprojektet fra 2. Semester. Her fik vi en fiktiv kunde, som var en biludlejningsforretning. Vi skulle lave en applikation til deres medarbejedere, hvor de kunne registrere deres kunder, biler og booking af biler. Projektet skulle kodes i Spring frameworket, hvor der blev brugt Java, MySql Html & CSS."
     }
 ]
